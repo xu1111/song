@@ -1,0 +1,147 @@
+
+.singer-all {
+  font-size: 15px;
+  color: #999;
+  background: black;
+
+  .singer-first {
+    .singer-header{
+      width: 100%;
+      height: 74px;}
+    .singer-keyword {
+
+      width: 100%;
+      height: 24px;
+      background: #343131;
+      line-height: 24px;
+      .singer-keywords {
+        position: absolute;
+        left: 12px;
+
+      }
+    }
+
+    .singer-scroll {
+      height: 582px;
+      overflow: hidden;
+      overflow-y: scroll;
+
+      .singer-one {
+        width: 100%;
+        height: 120px;
+        p{
+          background: #343131;
+
+        }
+
+      }
+      .singer-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 19px 0 0 21px;
+        float: left;
+      }
+      .singer-name {
+        color: #999999;
+        display: block;
+        margin-left: 30px;
+        height: 100px;
+        line-height: 100px;
+        float: left;
+      }
+      .singer-bottom {
+        height: 65px;
+        width: 100%;
+      }
+    }
+    .singer-right {
+
+      position: fixed;
+      top: 142px;
+      right: 10px;
+      p {
+        display: block;
+        font-size: 12px;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        &.active{
+          color: #15ffff;
+        }
+      }
+    }
+  }
+  .singer-false{
+    display: none;
+  }
+
+  .singers-true{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 200;
+    width: 100%;
+    height: 604px;
+    background: #343131;
+    .singers-image{
+      width: 100%;
+      height: 250px;
+      img{
+        height: 250px;
+        width: 100%;
+      }
+      .singers-back{
+        display: block;
+        width: 17px;
+        height: 17px;
+        border-left: 4px #f3cf6a solid;
+        border-bottom: 4px #f3cf6a solid;
+        transform:rotate(45deg);
+
+        position: fixed;
+        top: 15px;
+        left: 15px;
+      }
+      .singer-play{
+        border: 3px solid #f3cf6a;
+        display: block;
+        width: 170px;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 50px;
+        color: #f3cf6a;
+        text-align: center;
+        position: fixed;
+        left: 25%;
+        top: 193px;
+        i{
+          font-size: 20px;
+        }
+      }
+    }
+    .singers-singer{
+      position: relative;
+      height: 323px;
+      overflow: hidden;
+      overflow-y: scroll;
+      .singers-list{
+        width: 100%;
+        height: 39px;
+        .singers-singName{
+          display: block;
+          margin: 29px 0 0 27px;
+          font-size: 15px;
+          color: white;
+        }
+        .singer-singerName{
+          display: block;
+          margin: 10px 0 0 27px;
+        }
+      }
+
+    }
+  }
+
+}

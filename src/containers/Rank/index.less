@@ -1,0 +1,43 @@
+.content{
+    .rank-content{
+      width: 100%;
+      height: 100%;
+      background: #232123;
+      overflow: scroll;
+      padding-bottom: 50px;
+    li{
+      margin: 15px;
+      width: 94%;
+      height: 160px;
+      display: flex;
+      background: #0f0f0f;
+      position: relative;
+      .rank_left{
+        flex: 1;
+        img{
+          display: block;
+          width: 160px;
+          height:160px;
+          opacity: .3;
+        }
+        .rank_box{
+           position: absolute;
+           left: 37px;
+           top:60px;
+           font-size:38px;
+           color: white;
+        }
+      }
+      .rank_right{
+        padding:20px 0 0 10px;
+        flex: 1.5;
+        font-size: 18px;
+        color: #666666;
+        line-height:30px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.sings-add{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  z-index:1004;
+  background:#232123;
+  color:#fff;
+  .add-success{
+    height:40px;
+    position:absolute;
+    top:30%;
+    left:50%;
+    width:50%;
+    margin-left:-25%;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background:#666;
+    text-align: center;
+    line-height:40px;
+  }
+  .sings-add-header{
+    height:50px;
+    font-size:18px;
+    line-height:50px;
+    text-align:center;
+    padding:0 5%;
+    button{
+      font-size:16px;
+      line-height:50px;
+      color:#fff;
+      float:right;
+      background:transparent;
+      border:none;
+      outline:none;
+    }
+  }
+  .search-sings{
+    margin: 0 5%;
+    padding:0 2%;
+    outline:none;
+    height: 38px;
+    line-height: 38px;
+    background:#555;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color:#ccc;
+    i{
+      font-size:22px;
+      float:left;
+      margin-right:3px;
+    }
+  }
+  .sings-classify-list{
+    height:80%;
+    margin-top:20px;
+    .sings-classify{
+      padding:0 5%;
+      margin-bottom:30px;
+      font-size:20px;
+      color:#f3cf6a;
+      height:44px;
+      line-height:44px;
+      text-align: center;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border-bottom: 1px solid #444;
+    }
+    .sings-classList{
+      height:90%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      overflow:auto;
+      ul{
+        margin:0 8%;
+        li{
+          display:flex;
+          padding-bottom:20px;
+          height:45px;
+          div{
+            &:first-child{
+              flex:1;
+              p{
+                margin-top:5px;
+                color:#666;
+                font-size:14px;
+              }
+            }
+            span{
+              display:block;
+              width:18px;
+              height:18px;
+              margin-top:8px;
+              border:1px solid #666;
+              color:#666;
+              border-radius:5px;
+              text-align:center;
+              font-size:16px;
+              line-height:16px;
+            }
+          }
+
+        }
+      }
+    }
+
+  }
+}
